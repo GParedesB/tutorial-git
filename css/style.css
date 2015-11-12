@@ -4,8 +4,7 @@
  *	Header                  *
  *************************** */
 .container {
-  width: 100%;
-  background: blue; }
+  width: 100%; }
 
 .navbar {
   min-height: 50px;
