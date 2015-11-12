@@ -1,0 +1,21 @@
+//Variables 
+
+$color-rosado: #E45F5F
+$color-blancusco: #efefef
+$color-blanco: #fff
+$color-gris: #ddd
+$font-family1: Trebuchet MS, snas-serif
+$font-family2: Candara, sans-serif
+
+@mixin shadow($x ,$y ,$blur ,$color)
+  -webkit-box-shadow: $x $y $blur $color
+  -moz-box-shadow: $x $y $blur $color
+  box-shadow: $x $y $blur $color
+
+@mixin border-radius($radio)
+  -webkit-border-radius: $radio
+  -moz-border-radius: $radio
+  border-radius: $radio
+
+@mixin border($g,$s,$color)
+  border: $g $s $color

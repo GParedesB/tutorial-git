@@ -1,0 +1,52 @@
+// @mixin : son para crear funciones o precedimientos
+// facilita el numero de lineas de codigo
+
+//@mixin titulos {
+//	margin: 0 0 20px 0;
+//	font-family: Georgia, serif;
+//	font-size: 20px;
+//	font-weight: bold;
+//	text-transform: uppercase;
+//}
+
+@mixin titulos($fsize, $fw, $color: #000) {
+	margin: 0 0 20px 0;
+	font-family: Georgia, serif;
+	font-size: $fsize;
+	font-weight: $fw;
+	text-transform: uppercase;
+	color: $color;
+}
+
+@mixin shadow($x ,$y ,$blur ,$color) {
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-shadow: $x $y $blur $color;
+	box-shadow: $x $y $blur $color;
+}
+
+//SCSS
+section > h1 {
+	@include titulos(22px, bold, #fff);
+	//color: #333;
+}
+
+section > h2 {
+	@include titulos(18px, 600);
+}
+
+section > h3 {
+	@include titulos(15px, 300, #999);
+	//color: #999;
+}
+
+#caja1 {
+	@include shadow(1px,2px,5px,rbga(89,5,0,.6));
+}
+
+#caja2 {
+	@include shadow(6px,4px,5px,rbga(1,0,66,.6));
+}
+
+#caja3 {
+	@include shadow(9px,5px,5px,rbga(0,122,0.6));
+}

@@ -1,0 +1,28 @@
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete {
+  height: 100px;
+  width: 12%;
+  float: left;
+  margin: 1px; }
+
+#uno {
+  background: #009952; }
+
+#dos {
+  background: #00cc6d; }
+
+#tres {
+  background: #006636; }
+
+#cuatro {
+  background: #3d5c4e; }
+
+#cinco {
+  background: #ff66ad; }
+
+#seis {
+  background: #990047; }
+
+#siete {
+  background: #009952; }
+
+/*# sourceMappingURL=colores.css.map */

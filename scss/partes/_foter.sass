@@ -1,0 +1,47 @@
+/****************************
+ * Footer					*
+ ****************************/
+footer 
+  text-align: center
+  padding: 50px 0
+  background-color: rgba(220, 55, 55, 0.9) 
+  p 
+    color: #f8f8f8 
+
+.btn-circle-scroll 
+  margin-bottom: 30px !important 
+
+.btn-circle 
+  width: 70px
+  height: 70px
+  margin-top: 15px
+  padding: 5px 16px
+  @include border(2px,solid,#B02424)
+  @include border-radius(25%)
+  font-size: 40px
+  color: $color-blanco
+  background: 0 0
+  -webkit-transition: background .3s ease-in-out
+  -moz-transition: background .3s ease-in-out
+  transition: background .3s ease-in-out
+  @include shadow(-1px,1px,1px,rgba(255, 253, 223, 0.4))
+  &:hover, &:focus
+    outline: 0
+    color: $color-blanco
+    background: rgba(255, 255, 255, 0.1) 
+
+.btn-circle-scroll .btn-circle i.animated 
+  -webkit-transition-property: -webkit-transform
+  -webkit-transition-duration: 1s
+  -moz-transition-property: -moz-transform
+  -moz-transition-duration: 1s 
+
+.btn-circle-scroll .btn-circle:hover i.animated 
+  -webkit-animation-name: pulse
+  -webkit-animation-duration: 1.5s
+  -webkit-animation-iteration-count: infinite
+  -webkit-animation-timing-function: linear
+  -moz-animation-name: pulse
+  -moz-animation-duration: 1.5s
+  -moz-animation-iteration-count: infinite
+  -moz-animation-timing-function: linear 

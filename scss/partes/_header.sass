@@ -1,0 +1,96 @@
+/**************************** 
+ *	Header                  *
+ ****************************/
+.container 
+  width: 100% 
+
+.navbar
+  min-height: 50px
+  margin-bottom: 0px
+  @include border(1px,solid,transparent)
+  //border: 1px solid transparent 
+  .nav > 
+    li 
+      position: relative
+      display: block 
+
+.navbar-default 
+  background-color: $color-rosado
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+  .navbar-toggle 
+    border-color: $color-blancusco 
+    &:hover, &:focus
+      background-color: rgba(220, 55, 55, 0.9)
+    .icon-bar 
+      background-color: $color-blancusco
+  .navbar-brand
+    a
+      font-family: $font-family1
+      font-weight: bold
+      color: $color-blancusco
+      line-height: normal
+      text-decoration: none
+      text-transform: uppercase
+  .navbar-nav > 
+    li >
+      a 
+        color: $color-blanco
+        background-color: transparent
+        &:hover, &:focus
+          color: $color-blancusco
+          background-color: $color-rosado
+    .active > 
+      a, a:hover, a:focus
+        color: $color-blancusco
+        background-color: $color-rosado
+    //on click dropdown link set it style 
+    .open > 
+      a, a:focus, a:hover
+        color: $color-blancusco
+        background-color: $color-rosado
+        border-bottom: solid 2px transparent 
+      .dropdown-menu 
+        li 
+          a
+            &:focus, &:hover
+              color: #e7e7e7
+              background-color: #CA3939 
+  .navbar-nav .open .dropdown-menu > 
+    li > 
+      a
+        color: #ABABAB
+        width: 95%  
+  &.top-nav-collapse 
+    .navbar-brand 
+      a 
+        font-size: 17px 
+
+.dropdown-menu 
+  position: absolute
+  top: 100%
+  left: 0
+  z-index: 1000
+  display: none
+  float: left
+  min-width: 160px
+  padding: 10px 0
+  margin: 2px 0 0
+  list-style: none
+  font-size: 14px
+  background-color: $color-blanco
+  @include border(1px,solid,#ccc)
+  @include border(1px,solid,rgba(0, 0, 0, 0.15))
+  @include border-radius(5px)
+  @include shadow(0,6px,12px,rgba(0,0,0,0.175))
+  background-clip: padding-box
+
+/* top-nav-collapse collapse style */
+.top-nav-collapse 
+  min-height: 42px
+  padding: 0
+  .navbar-toggle 
+    margin-top: 5px
+    padding: 6px 6px
+    margin-bottom: 6px
+  .navbar-brand 
+    padding: 10px 15px 0px 15px 

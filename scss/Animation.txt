@@ -1,0 +1,199 @@
+/****************************
+ * Animation          *
+ ****************************/
+.fadeIn 
+  //-webkit-animation-name: fadeIn
+  //animation-name: fadeIn
+  //animation-duration: 1.5s
+
+/****************************
+ * Desktop and Tablet style *
+ ****************************/
+@media (max-width: 1200px) 
+  .banner .slogan 
+    padding: 0% 0% 0% 0%
+  @media (max-width: 850px) 
+  .navbar-default .navbar-nav > li > a 
+    font-size: 14px 
+
+  /* top-nav-collapse collapse style */
+  .top-nav-collapse 
+    background-color: #CA3939
+    border-bottom: 2px solid rgba(195, 52, 52, 0.7)
+
+  .top-nav-collapse .navbar-toggle 
+    margin-top: 5px
+    padding: 6px 6px
+    margin-bottom: 6px 
+
+  .top-nav-collapse .navbar-brand 
+    padding: 15px
+
+  .navbar .nav > li 
+    position: relative
+    display: block
+    width: initial 
+
+  .navbar-nav > li > a 
+    padding-top: 15px
+    padding-bottom: 10px
+    height: 50px
+    margin-bottom: 2px 
+
+  .navbar-nav > li > .dropdown-menu.bullet 
+    margin-top: 7px 
+
+  .dropdown-menu.bullet:before 
+    content: ''
+    width: 0
+    height: 0
+    display: inline-block
+    position: absolute
+    border-color: transparent
+    border-style: solid
+    -webkit-transform: rotate(360deg)
+    border-width: 0 7px 7px
+    border-bottom-color: #cccccc
+    border-bottom-color: rgba(0, 0, 0, 0.15)
+    top: -7px
+    right: 25px
+
+  .dropdown-menu.bullet:after 
+    content: ''
+    width: 0
+    height: 0
+    display: inline-block
+    position: absolute
+    border-color: transparent
+    border-style: solid
+    -webkit-transform: rotate(360deg)
+    border-width: 0 6px 6px
+    border-bottom-color: #ffffff
+    top: -5px
+    right: 25px 
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a 
+    color: #333
+    width: 100% 
+
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus 
+    background-color: transparent
+
+
+
+  /* top-nav-collapse */
+  .navbar-default.top-nav-collapse .navbar-brand a 
+    color: #FFFFFF 
+
+  .navbar-default.top-nav-collapse .navbar-nav > li > a 
+    height: 45px
+    color: #FFF
+    margin-bottom: 3px 
+
+  .navbar-default.top-nav-collapse .navbar-nav > li > a:hover,
+  .navbar-default.top-nav-collapse .navbar-nav > li > a:focus 
+    color: #FFF 
+
+  /* Header Banner Section */
+  .banner .slogan 
+    padding: 10% 0% 0% 0% 
+
+  .banner .slogan h2 
+    font-size: 60px 
+
+  .banner .slogan h4 
+    font-size: 18px  
+@media (max-width: 992px) 
+  .banner .slogan 
+    padding: 4% 0% 0% 0%  
+@media (max-width: 768px) 
+  .navbar-default .navbar-nav > li > a 
+    font-size: 12px 
+
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus 
+    color: #efefef
+    background-color: #E45F5F 
+
+
+  .navbar-nav > li > a 
+    padding-top: 15px
+    padding-bottom: 10px
+    height: 50px
+    margin-bottom: 2px  
+  .company-social a 
+    width: 36px
+    height: 35px
+    line-height: 37px
+  
+
+@media (max-width: 640px) 
+  .banner .slogan 
+    padding: 0% 0% 0% 0% 
+
+  .banner .slogan h2 
+    font-size: 50px 
+
+  .banner .slogan h4 
+    font-size: 16px   
+  .testimonials-banner 
+    background: #ddd url(../img/testimonials/cover/mob.jpg) no-repeat
+    background-size: cover 
+  
+  .banner 
+    height: 427px !important
+  
+  .img-aboutus 
+    margin: 2em 0 0 0
+  
+  .row-padded 
+    padding: 7px
+  
+
+@media (max-width: 480px) 
+  .banner .slogan 
+    padding: 9% 0% 0% 
+
+  .banner .slogan h2 
+    font-size: 45px 
+
+  .banner .slogan h4 
+    font-size: 16px  
+
+@media (max-width: 320px) 
+  .banner .slogan h2 
+    font-size: 34px
+  
+  section h2 
+    margin-top: 14px
+    margin-bottom: 14px
+    font-size: 23px
+  
+  .banner 
+    height: 330px !important
+  
+  section p 
+    font-size: 13px
+    padding: 0px 0px 0px 0px
+   
+  .testimonials-banner 
+    min-height: 197px
+  
+  blockquote 
+    padding: 2px 9px
+  
+  .physical-address 
+    padding-left: 8px
+  
+  .btn-circle-scroll 
+    margin-bottom: 21px !important
+  
+  footer 
+    padding: 30px 0px
+  
+  .btn-circle 
+    width: 60px
+    height: 60px
+    padding: 0px 10px
+  

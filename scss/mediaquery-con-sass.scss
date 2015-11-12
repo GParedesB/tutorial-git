@@ -1,0 +1,64 @@
+/*p.seccion {
+	font-size: 16px;
+	color: black;
+}
+
+/****** Media Queries ******/
+/*@media (max-width: 480px) {
+	p.seccion {
+		font-size: 22px;
+		color: red;
+	}
+}
+@media (max-width: 480px) and (max-width: 728px) {
+	p.seccion {
+		font-size: 18px;
+		color: green;
+	}
+}
+@media (max-width: 1024px) {
+	p.seccion {
+		font-size: 20px;
+		color: yellow;
+	}
+}*/
+
+// Variables
+//$smar-phonne: 480px;
+//$tablets: 728px;
+//$desktop: 1024px;
+
+$smar-phonne: "(max-width: 480px)";
+/*$tablets: "(max-width: 480px) and (max-width: 728px)";*/
+$desktop: "(max-width: 1024px)";
+
+//mixin
+@mixin table {
+	@media (max-width: 480px) and (max-width: 728px) {
+		@content;
+	}
+}
+p.seccion {
+	font-size: 16px;
+	color: black;
+
+	/*@media (max-width: 480px) {*/
+	/*@media (max-width: $smar-phonne) {*/
+	@media #{$smar-phonne} {
+		font-size: 22px;
+		color: red;
+	}
+	/*@media (max-width: 480px) and (max-width: 728px) {*/
+	/*@media (max-width: $smar-phonne) and (max-width: $tablets) {*/
+	//@media #{$tablets} {
+	@include table {
+		font-size: 18px;
+		color: green;
+	}
+	/*@media (max-width: 1024px) {*/
+	/*@media (max-width: $desktop) {*/
+	@media #{$desktop} {
+		font-size: 20px;
+		color: yellow;		
+	}
+}

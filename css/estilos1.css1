@@ -1,0 +1,16 @@
+/* line 1, ../scss/estilos.scss */
+#main {
+  width: 100%;
+}
+/* line 4, ../scss/estilos.scss */
+#main p, #main div {
+  font-size: 2em;
+}
+/* line 6, ../scss/estilos.scss */
+#main p a, #main div a {
+  font-weight: bold;
+}
+/* line 9, ../scss/estilos.scss */
+#main pre {
+  font-size: 3em;
+}

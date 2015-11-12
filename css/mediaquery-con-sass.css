@@ -1,0 +1,48 @@
+/*p.seccion {
+	font-size: 16px;
+	color: black;
+}
+
+/****** Media Queries ******/
+/*@media (max-width: 480px) {
+	p.seccion {
+		font-size: 22px;
+		color: red;
+	}
+}
+@media (max-width: 480px) and (max-width: 728px) {
+	p.seccion {
+		font-size: 18px;
+		color: green;
+	}
+}
+@media (max-width: 1024px) {
+	p.seccion {
+		font-size: 20px;
+		color: yellow;
+	}
+}*/
+/*$tablets: "(max-width: 480px) and (max-width: 728px)";*/
+p.seccion {
+  font-size: 16px;
+  color: black;
+  /*@media (max-width: 480px) {*/
+  /*@media (max-width: $smar-phonne) {*/
+  /*@media (max-width: 480px) and (max-width: 728px) {*/
+  /*@media (max-width: $smar-phonne) and (max-width: $tablets) {*/
+  /*@media (max-width: 1024px) {*/
+  /*@media (max-width: $desktop) {*/ }
+  @media (max-width: 480px) {
+    p.seccion {
+      font-size: 22px;
+      color: red; } }
+  @media (max-width: 480px) and (max-width: 728px) {
+    p.seccion {
+      font-size: 18px;
+      color: green; } }
+  @media (max-width: 1024px) {
+    p.seccion {
+      font-size: 20px;
+      color: yellow; } }
+
+/*# sourceMappingURL=mediaquery-con-sass.css.map */

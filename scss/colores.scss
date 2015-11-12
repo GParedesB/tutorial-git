@@ -1,0 +1,53 @@
+//$color1: #912;
+//$color1: rgb(255, 24, 89);
+//$color1: rgba(255, 24, 89, .5);
+//$color1: rgba(#234, .3);
+//$color2: #234;
+
+//HSL Function
+//$color1: hsl(180deg,25%,75%);
+//$color1: hsla(180deg, 25%, 75%, .7);
+//$color1: hsla(180deg, 25%, 75%, .7);
+
+//selector {
+//	color: $color1;
+	//color: $color1 + $color2;
+	//color: $color1 - $color2;
+	//color: $color1 * $color2;
+//}
+
+$color-base: hsl(152, 100%, 30%);
+
+%comunes{
+	height: 100px;
+	width: 12%;
+	float: left;
+	margin: 1px;
+}
+
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete {
+	@extend %comunes;
+}
+#uno {
+	background: $color-base;
+}
+#dos {
+	background: lighten($color-base, 10%);
+}
+#tres {
+	background: darken($color-base, 10%);
+}
+#cuatro{
+	background: desaturate($color-base, 80%);
+}
+#cinco {
+	background: invert($color-base);
+}
+#seis {
+	background: complement($color-base);
+}
+#siete {
+	background: complement(#990047);
+}
+
+

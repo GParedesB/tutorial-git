@@ -1,0 +1,44 @@
+section > h1 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+section > h2 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+section > h3 {
+  margin: 0 0 20px 0;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+#caja1 {
+  -webkit-box-shadow: 1px 2px 5px rbga(89, 5, 0, 0.6);
+  -moz-box-shadow: 1px 2px 5px rbga(89, 5, 0, 0.6);
+  box-shadow: 1px 2px 5px rbga(89, 5, 0, 0.6);
+}
+
+#caja2 {
+  -webkit-box-shadow: 6px 4px 5px rbga(1, 0, 66, 0.6);
+  -moz-box-shadow: 6px 4px 5px rbga(1, 0, 66, 0.6);
+  box-shadow: 6px 4px 5px rbga(1, 0, 66, 0.6);
+}
+
+#caja3 {
+  -webkit-box-shadow: 9px 5px 5px rbga(0, 122, 0.6);
+  -moz-box-shadow: 9px 5px 5px rbga(0, 122, 0.6);
+  box-shadow: 9px 5px 5px rbga(0, 122, 0.6);
+}
