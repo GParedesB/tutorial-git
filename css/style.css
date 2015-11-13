@@ -4,7 +4,8 @@
  *	Header                  *
  *************************** */
 .container {
-  width: 100%; }
+  width: 100%;
+  font-family: snas-serif; }
 
 .navbar {
   min-height: 50px;
@@ -15,7 +16,7 @@
     display: block; }
 
 .navbar-default {
-  background-color: #E45F5F;
+  background-color: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
   .navbar-default .navbar-toggle {
     border-color: #efefef; }
@@ -24,7 +25,7 @@
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #efefef; }
   .navbar-default .navbar-brand a {
-    font-family: Trebuchet MS, snas-serif;
+    /*font-family: Trebuchet MS, snas-serif;*/
     font-weight: bold;
     color: #efefef;
     line-height: normal;
@@ -100,7 +101,7 @@
     top: 0px;
     text-align: center; }
     .banner .slogan h2 {
-      font-family: Trebuchet MS, snas-serif;
+      /*font-family: Trebuchet MS, snas-serif;*/
       color: #fff;
       text-shadow: none;
       text-decoration: none;
@@ -114,7 +115,7 @@
       line-height: 60px;
       font-weight: 700; }
     .banner .slogan h4 {
-      font-family: Trebuchet MS, snas-serif;
+      /*font-family: Trebuchet MS, snas-serif;*/
       color: #f7f7f7;
       margin-bottom: 30px;
       font-weight: 600;
@@ -181,7 +182,7 @@ footer {
 section {
   padding: 20px; }
   section h2 {
-    font-family: Trebuchet MS, snas-serif;
+    /*font-family: Trebuchet MS, snas-serif;*/
     line-height: 1.1;
     color: #4D3B3B;
     font-weight: bold;
@@ -189,7 +190,7 @@ section {
     margin-top: 40px;
     margin-bottom: 20px; }
   section h4 {
-    font-family: Candara, sans-serif;
+    /*font-family: Candara, sans-serif;*/
     font-size: 22px;
     font-weight: bold;
     color: #5C5757;
