@@ -1,2 +1,2 @@
 Hola
-Esta es una modificacion echa en la rama A
+Esta es una modificación de la rama A y rama B.
